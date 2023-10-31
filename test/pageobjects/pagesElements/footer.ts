@@ -3,6 +3,9 @@ import GeneralElement from './generalElement';
 
 class Footer extends GeneralElement{
 
+    constructor(){
+        super();
+    }
 
 
 }

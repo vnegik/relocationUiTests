@@ -3,6 +3,9 @@ import GeneralElement from './generalElement';
 
 class Header extends GeneralElement{
 
+    constructor(){
+        super();
+    }
 
 
 }

@@ -2,11 +2,14 @@ import { $ } from '@wdio/globals'
 import Page from './page.js';
 
 class HomePage extends Page {
- 
+    
+    constructor() {
+        super();
+    }
+
     public get aboutArea () {
         return $("//div[contains(@class,'lE7i3')]");
     }
-
 
     public open () {
         return super.open('');
