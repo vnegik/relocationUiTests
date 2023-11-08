@@ -11,7 +11,8 @@
     "typescript": "^5.2.2"
   },
   "scripts": {
-    "wdio": "wdio run ./wdio.conf.ts"
+    "wdio": "wdio run ./wdio.conf.ts",
+    "report": "allure generate allure-results --clean && allure open"
   },
   "dependencies": {
     "npm-check-updates": "^16.14.6"
