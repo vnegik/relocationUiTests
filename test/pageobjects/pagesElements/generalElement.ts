@@ -1,7 +1,8 @@
-import { browser } from '@wdio/globals';
+//import { browser } from '@wdio/globals';
 
-export default class GeneralElement {
+class GeneralElement {
     constructor() {
 
     }
 }
+export default GeneralElement;

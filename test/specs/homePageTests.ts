@@ -1,10 +1,11 @@
-import { expect } from '@wdio/globals'
-import HomePage from '../pageobjects/homePage.js'
+import HomePage from '../pageobjects/homePage.js';
+import { browser } from '@wdio/globals';
+import { expect } from '@wdio/globals';
 
 
 describe('Home page UI tests.', () => {
 
-    before(async () => {
+   before(async () => {
         await HomePage.open();
         await browser.maximizeWindow();
     });

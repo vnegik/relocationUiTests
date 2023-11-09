@@ -1,5 +1,5 @@
-import { browser } from '@wdio/globals';
-import GeneralElement from './generalElement';
+//import { browser } from '@wdio/globals';
+import GeneralElement from './generalElement.js';
 
 class Footer extends GeneralElement{
 
@@ -9,4 +9,5 @@ class Footer extends GeneralElement{
 
 
 }
-export default new Footer();
+//module.exports = Footer;
+export default Footer;
